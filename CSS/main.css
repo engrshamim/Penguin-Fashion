@@ -1,0 +1,53 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.yellow-clr {
+    color: #FABE4C;
+}
+
+.green-clr {
+    color: #363958;
+}
+/* For button decoration */
+#luck{
+    background-color: limegreen;
+    color: white;
+    padding: 10px 15px;
+}
+
+.last-row {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.last-fast {
+    width: 40%;
+}
+.last-second {
+    width: 55%;
+}
+
+/* For last section responsive */
+@media only screen and (max-width: 1120px) {
+    .last-fast {
+        width: 45%;
+    }
+    .last-second {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .last-fast {
+        width: 100%;
+    }
+    .last-second {
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+/* For last section responsive */
